@@ -1,0 +1,27 @@
+site_name: plankton_nets
+nav:
+    - Introduction: README.md
+    - 1. Fabrication du filet: test.md
+    - 2. Fabrication des collecteurs:
+      - Micro A: collecteur_microA.md
+      - Micro B: collecteur_microB.md
+
+        
+theme:
+    name: material
+    palette:
+      primary: yellow
+
+plugins:
+  - search
+  - i18n:
+      default_language: fr
+      languages:
+        fr: Français
+
+markdown_extensions:
+    - smarty
+    - sane_lists
+    - admonition
+    - toc:
+        permalink: true
