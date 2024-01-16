@@ -14,10 +14,6 @@ theme:
 
 plugins:
   - search
-  - i18n:
-      default_language: fr
-      languages:
-        fr: Français
 
 markdown_extensions:
     - smarty
